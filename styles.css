@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Adjust the gap as needed */
+}
+
+.repo-grid li {
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.repo-grid li a {
+    margin-top: 10px;
+    background-color: green;
+    width: 50px;
+    color: wheat;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    cursor: grab;
+    border-radius: 25px;
+}
+
+div.languages {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+span {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: #6693f4;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 8px;
+    cursor: pointer;
+    border-color: rgb(73, 191, 255);
+    background-color: white;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/*.user-profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-profile .photo {
+    float: left;
+}
+
+.user {
+    text-align: center;
+}
+
+.user-profile .pro {
+    border-radius: 50%;
+    max-width: 100px;
+
+}
+
+
+
+.git {
+    padding: 10px;
+}
+
+.loca {
+    margin-bottom: 40px;
+
+}
+*/
+/* Add this to your styles.css */
+
+.user-profile {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+
+.user-profile .photo {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.user-profile .pro {
+    border-radius: 50%;
+    max-width: 100px;
+
+}
+
+.user-profile .user {
+    margin-left: 30px;
+}
+
+
+.user-profile p {
+    margin: 5px 0;
+}
+
+.user-profile .loca img {
+    margin-right: 5px;
+}
+
+.user-profile a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.user-profile a:hover {
+    text-decoration: underline;
+}
+
+#gitlink {
+    margin-top: 5px;
+}
+
+.loc {
+    height: 20px;
+}
+
+.pagination button.current-page {
+    background-color: #3498db;
+    color: white;
+}

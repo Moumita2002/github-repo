@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Let's see Github Repositories</h1>
+        <input type="text" id="username" placeholder="Enter GitHub Username">
+        <button onclick="fetchUserDetails()">Go</button>
+
+    </header>
+    <main>
+        <div class="user-profile" id="userProfile"></div>
+
+        <div id="loader" class="loader" style="display: none;"></div>
+        <ul id="repoList" class="repo-grid"></ul>
+        <div class="pagination" id="pagination"></div>
+    </main>
+
+
+</body>
+
+</html>
