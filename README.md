@@ -9,7 +9,7 @@ Tech Stack used: HTML, CSS, Javascript
 - When the API calls are in progress, loaders are shown.
 
 # ASSUMPTIONS
-- I have added a show button, to view the repository if the user wants to see it.
+- I've incorporated a 'Show' button, allowing users the option to view the repository if they wish.
 
 # OVERVIEW
 ![2024-01-20](https://github.com/Moumita2002/github-repo/assets/102172188/93cfeedf-f023-4346-a008-fbe9f8d10d6f)
